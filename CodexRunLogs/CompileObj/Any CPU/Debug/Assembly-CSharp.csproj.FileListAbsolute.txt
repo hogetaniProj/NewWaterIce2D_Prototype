@@ -1,0 +1,6 @@
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileOut\Assembly-CSharp.dll
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileOut\Assembly-CSharp.pdb
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileObj\Any CPU\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileObj\Any CPU\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileObj\Any CPU\Debug\Assembly-CSharp.dll
+C:\Users\hidee\NewWaterIce2D_Proto\CodexRunLogs\CompileObj\Any CPU\Debug\Assembly-CSharp.pdb
