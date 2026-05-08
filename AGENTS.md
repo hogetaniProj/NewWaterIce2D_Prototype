@@ -5,22 +5,10 @@
 - main ブランチには直接 commit / push しない。
 - 作業は現在の feature ブランチ上で行う。
 - このプロジェクトは Unity プロジェクトです。
-- `dotnet`、`dotnet test`、`dotnet build`、`msbuild` は一切実行しないでください。
-- Unity Editor の探索も行わないでください。
-- ビルドテストには、必ず以下のPowerShellコマンドだけを使ってください。
-
-```powershell
-$UnityExe = "C:\Program Files\Unity\Hub\Editor\6000.3.14f1\Editor\Unity.exe"
-$RepoPath = "C:\Users\hidee\NewWaterIce2D_Proto"
-$LogFile = Join-Path $RepoPath ".codex-run-logs\unity-build.log"
-
-& $UnityExe `
-    -batchmode `
-    -quit `
-    -projectPath $RepoPath `
-    -executeMethod CodexBuildValidator.BuildWindows64 `
-    -logFile $LogFile
-```
+- `Unity.exe` の直接起動、`dotnet test`、`dotnet build`、`dotnet --version`、`Get-Command Unity` は実行しないでください。
+- Unity のビルド確認やコンパイル確認を自分で推測して実行しないでください。
+- 検証は、呼び出し元スクリプトが実行する `C:\Users\hidee\CodexNightlyTools\Test-UnityCSharpCompile.ps1` に任せてください。
+- Codex 自身は、変更対象ファイルの存在確認、内容確認、`git status --short` のみ行ってください。
 
 - 大きすぎる変更は避け、1コミット1目的に分ける。
 - 仕様が曖昧な場合は、推測で大規模変更せず、TODO コメントまたはレポートに残す。
