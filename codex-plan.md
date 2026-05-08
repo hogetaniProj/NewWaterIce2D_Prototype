@@ -3,12 +3,21 @@
 
 ## Step 1
 
-1. `Assets` フォルダ直下の `CodexTest.cs` が存在することを確認する。
-2. `Assets/CodexTest.cs` の現在の内容を確認する。
-3. 次の実作業で、`Assets/CodexTest.cs` の内容を `//これはテストです（Ver2!）` の 1 行に更新する。
-4. 更新後、`Assets/CodexTest.cs` の配置場所と内容を再確認する。
+
+1. `Assets` フォルダ直下に `CodexTest.cs` が存在するか確認する
+
+2. 存在しない場合は `Assets/CodexTest.cs` を作成する。
+3. ファイル内容が `//これはテストです（Ver2!）` の 1 行になっているか確認する。
+4. 内容が異なる場合のみ、`//これはテストです（Ver2!）` に更新する。
+5. 作成または更新後、配置場所と内容を再確認する。
+
+
 
 ## Current Notes
 
-- この計画作成時点では `Assets/CodexTest.cs` は変更しない。
-- 確認時点で `Assets/CodexTest.cs` は既に存在し、現在の内容は `//これはテストです！` だった。
+
+- 現時点では `Assets/CodexTest.cs` は変更しない。
+
+- 確認時点で `Assets/CodexTest.cs` は既に存在し、内容も `//これはテストです（Ver2!）` だった。
+
+
