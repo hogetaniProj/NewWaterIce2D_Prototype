@@ -1,6 +1,5 @@
-`codex-plan.md` に Step 1 の計画を更新しました。
+`codex-plan.md` に Step 1 の計画を書きました。
 
-`Assets/CodexTest.cs` は指示通り変更していません。現在の内容は `//これはテストです（Ver4!）` のままです。
+確認したところ、`Assets/CodexTest.cs` はすでに `//これはテストです（Ver5!）` になっていたため、対象ファイルは変更していません。変更したのは `codex-plan.md` のみです。
 
-変更したファイル:
-- [codex-plan.md](C:/Users/hidee/NewWaterIce2D_Proto/codex-plan.md)
+`dotnet` / Unity Editor / ビルド系コマンドは実行していません。
