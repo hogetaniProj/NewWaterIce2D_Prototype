@@ -10,5 +10,6 @@
 ## Current Notes
 
 - このステップでは `Assets/CodexTest.cs` は変更しない。
-- 確認時点で `Assets/CodexTest.cs` は存在し、内容は `//これはテストです（Ver3!）` だった。
-- この計画書は、次に `Assets/CodexTest.cs` を `//これはテストです（Ver4!）` へ変更するための手順を記録する。
+- 確認時点で `Assets/CodexTest.cs` は存在し、内容は `//これはテストです（Ver4!）` だった。
+- この計画書は、次に `Assets/CodexTest.cs` を `//これはテストです（Ver4!）` へ変更または維持確認するための手順を記録する。
+
