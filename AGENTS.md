@@ -9,7 +9,6 @@
 - Unity Editor の探索も行わないでください。
 - ビルドテストには、必ず以下のPowerShellコマンドだけを使ってください。
 
-
 ```powershell
 $UnityExe = "C:\Program Files\Unity\Hub\Editor\6000.3.14f1\Editor\Unity.exe"
 $RepoPath = "C:\Users\hidee\NewWaterIce2D_Proto"
