@@ -1,3 +1,5 @@
-[codex-plan.md](C:/Users/hidee/NewWaterIce2D_Proto/codex-plan.md) を更新しました。
 
-`Assets/CodexTest.cs` は触っていません。確認時点では既に `//これはテストです（Ver2!）` になっていたため、その状況も計画メモに反映しています。
+`codex-plan.md` を Ver2 向けの計画に更新しました。
+
+`Assets/CodexTest.cs` は読み取り確認のみで、今回こちらでは変更していません。確認時点では既に内容が `//これはテストです（Ver2!）` になっていました。現在の未コミット差分には `Assets/CodexTest.cs` も出ていますが、これは作業開始前から存在していた変更です。
+
