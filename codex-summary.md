@@ -7,3 +7,4 @@
 - Step 3 で `Assets/CodexTest.cs` をセルフレビューし、明らかなバグ、不要な実装変更、大きすぎる変更は見つからなかった。
 - Step 3 中に発生した `.codex-run-logs/step-3.jsonl` の作業ログ差分は、実装変更ではないためレビュー対象外とした。
 - Unity や dotnet 系の検証コマンドは、プロジェクト指示に従って実行していない。
+- 追加確認として、`git status --short` が空で作業ツリーに未コミット差分がないこと、`Assets/CodexTest.cs` が `//これはテストです（Ver5!）` の 1 行であることを確認した。
