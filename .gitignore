@@ -105,3 +105,12 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+
+@'
+codex-plan.md
+codex-summary.md
+codex-report.md
+.codex-run-logs/
+CodexRunLogs/
+'@ | Add-Content .gitignore
