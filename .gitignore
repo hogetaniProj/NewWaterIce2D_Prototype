@@ -108,9 +108,7 @@ InitTestScene*.unity*
 
 
 @'
-codex-plan.md
-codex-summary.md
-codex-report.md
+CodexMds/
 .codex-run-logs/
 CodexRunLogs/
 '@ | Add-Content .gitignore
