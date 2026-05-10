@@ -1,5 +1,13 @@
 # AGENTS.md
 
+## 検索ルール
+
+- リポジトリ全体に対して `rg --files -g "*.cs" -g "*.unity" -g "*.prefab" -g "*.asset"` のような広すぎるファイル列挙をしないでください。
+- CorgiEngine 配下を調査する場合も、まず対象ディレクトリを絞ってください。
+- `*.asset` と `*.prefab` の全件列挙は禁止です。必要な場合は `Assets/Scenes`、`Assets/Scripts`、`Assets/CorgiEngine/Common/Scripts` など、対象を限定してください。
+- 調査コマンドは最大でも数十行程度の出力になるようにしてください。
+- `rg` で検索結果が0件の場合は exit code 1 になるため、調査目的では失敗扱いしないでください。
+
 ## 作業ルール
 
 - main ブランチには直接 commit / push しない。
