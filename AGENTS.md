@@ -4,7 +4,7 @@
 
 - main ブランチには直接 commit / push しない。
 - 作業は現在の feature ブランチ上で行う。
-- このプロジェクトは Unity プロジェクトです。
+- このプロジェクトは Unity プロジェクトです。バージョンは6000.3.14f1です。
 - `Unity.exe` の直接起動、`dotnet test`、`dotnet build`、`dotnet --version`、`Get-Command Unity` は実行しないでください。
 - Unity のビルド確認やコンパイル確認を自分で推測して実行しないでください。
 - 検証は、呼び出し元スクリプトが実行する `C:\Users\hidee\CodexNightlyTools\Test-UnityCSharpCompile.ps1` に任せてください。
