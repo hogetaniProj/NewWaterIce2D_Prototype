@@ -2,6 +2,7 @@
 
 ## 作業ルール
 
+- 作業を開始する前に、必ず現在作ろうとしているものの全体像を把握するために、"C:\Users\hidee\NewWaterIce2D_Proto\water_ice_game_spec_prototype.md"の中身を読み込んでください。
 - main ブランチには直接 commit / push しない。
 - 作業は現在の feature ブランチ上で行う。
 - このプロジェクトは Unity プロジェクトです。バージョンは6000.3.14f1です。
